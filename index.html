@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">LM</span>
+                <span class="logo-name">Lakshmi M</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#leadership" class="nav-link">Leadership</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name">Lakshmi M</h1>
+                    <h2 class="hero-title">Aspiring Data Analyst</h2>
+                    <p class="hero-description">
+                        Passionate about transforming data into actionable insights. Skilled in data analysis, visualization, and statistical modeling to drive business decisions.
+                    </p>
+                    <div class="tech-badges">
+                        <span class="badge">Python</span>
+                        <span class="badge">SQL</span>
+                        <span class="badge">Excel</span>
+                        <span class="badge">Power BI</span>
+                        <span class="badge">Tableau</span>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#resume" class="btn btn-secondary">Download Resume</a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Email">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="particles">
+                        <div class="particle particle-1"></div>
+                        <div class="particle particle-2"></div>
+                        <div class="particle particle-3"></div>
+                        <div class="particle particle-4"></div>
+                        <div class="particle particle-5"></div>
+                        <div class="particle particle-6"></div>
+                        <div class="particle particle-7"></div>
+                        <div class="particle particle-8"></div>
+                    </div>
+                    <div class="profile-container">
+                        <div class="profile-glow"></div>
+                        <div class="profile-ring"></div>
+                        <div class="profile-image">
+                            <img src="images/profile.jpg" alt="Lakshmi M" class="profile-img">
+                        </div>
+                        <div class="floating-icon icon-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="18" y1="20" x2="18" y2="10"></line>
+                                <line x1="12" y1="20" x2="12" y2="4"></line>
+                                <line x1="6" y1="20" x2="6" y2="14"></line>
+                            </svg>
+                        </div>
+                        <div class="floating-icon icon-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                            </svg>
+                        </div>
+                        <div class="floating-icon icon-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                                <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+                            </svg>
+                        </div>
+                        <div class="floating-icon icon-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="3" y1="9" x2="21" y2="9"></line>
+                                <line x1="9" y1="21" x2="9" y2="9"></line>
+                            </svg>
+                        </div>
+                        <div class="floating-icon icon-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                                <polyline points="2 17 12 22 22 17"></polyline>
+                                <polyline points="2 12 12 17 22 12"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about" class="about-highlights">
+            <div class="about-container">
+                <div class="about-left-card">
+                    <div class="about-header">
+                        <div class="about-header-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <h2 class="about-heading">About Me</h2>
+                    </div>
+                    <div class="about-text">
+                        <p>
+                            Hello! I'm Lakshmi M, a passionate Aspiring Data Analyst currently pursuing B.E. Computer Science and Engineering (3rd Year) at SRM Easwari Engineering College, Chennai.
+                        </p>
+                        <p>
+                            I enjoy transforming raw data into meaningful insights and building solutions that solve real-world problems. My interests include Data Analytics, Business Intelligence, Machine Learning fundamentals, and modern Web Development.
+                        </p>
+                        <p>
+                            I continuously improve my analytical thinking by practicing SQL, Python, Data Structures & Algorithms, and creating interactive dashboards using Excel, Power BI, and Tableau. My long-term goal is to become a highly skilled Data Analyst capable of making data-driven business decisions.
+                        </p>
+                    </div>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <span class="info-label">Name</span>
+                                <span class="info-value">Lakshmi M</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <span class="info-label">Role</span>
+                                <span class="info-value">Aspiring Data Analyst</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 10v6M2 10v6"></path>
+                                    <path d="M20 20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12z"></path>
+                                    <path d="M12 12h.01"></path>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <span class="info-label">College</span>
+                                <span class="info-value">SRM Easwari Engineering College</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <span class="info-label">Degree</span>
+                                <span class="info-value">B.E Computer Science & Engineering</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <span class="info-label">Current Year</span>
+                                <span class="info-value">3rd Year</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <span class="info-label">Expected Graduation</span>
+                                <span class="info-value">2028</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 20h9"></path>
+                                    <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <span class="info-label">CGPA</span>
+                                <span class="info-value">9.2</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <span class="info-label">Location</span>
+                                <span class="info-value">Chennai, Tamil Nadu</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary about-btn">
+                        Know More About Me
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-arrow">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+                <div class="about-right-card">
+                    <h3 class="highlights-heading">Highlights</h3>
+                    <div class="highlights-grid">
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                                </svg>
+                            </div>
+                            <div class="highlight-value">5+</div>
+                            <div class="highlight-title">Major Projects</div>
+                            <div class="highlight-desc">Academic, Hackathon & Full Stack Projects</div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                                    <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                                    <path d="M4 22h16"></path>
+                                    <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                                    <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                                    <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>
+                                </svg>
+                            </div>
+                            <div class="highlight-value">2</div>
+                            <div class="highlight-title">Hackathons</div>
+                            <div class="highlight-desc">Including Smart India Hackathon 2025</div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg>
+                            </div>
+                            <div class="highlight-value">2</div>
+                            <div class="highlight-title">Internships</div>
+                            <div class="highlight-desc">Web Development Experience</div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                            </div>
+                            <div class="highlight-value">200+</div>
+                            <div class="highlight-title">DSA Problems</div>
+                            <div class="highlight-desc">Consistent Coding Practice</div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="20" x2="18" y2="10"></line>
+                                    <line x1="12" y1="20" x2="12" y2="4"></line>
+                                    <line x1="6" y1="20" x2="6" y2="14"></line>
+                                </svg>
+                            </div>
+                            <div class="highlight-value">10+</div>
+                            <div class="highlight-title">Analytics Skills</div>
+                            <div class="highlight-desc">Python, SQL, Excel, Power BI, Tableau & Statistics</div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="8" r="6"></circle>
+                                    <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+                                </svg>
+                            </div>
+                            <div class="highlight-value">2</div>
+                            <div class="highlight-title">Achievements</div>
+                            <div class="highlight-desc">SIH Shortlisted & Engineering Mathematics Festival Winner</div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <div class="highlight-value">Secretary</div>
+                            <div class="highlight-title">Leadership</div>
+                            <div class="highlight-desc">IET ENCAMPS Club Secretary & Event Organizer</div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                                    <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                                    <line x1="12" y1="19" x2="12" y2="23"></line>
+                                    <line x1="8" y1="23" x2="16" y2="23"></line>
+                                </svg>
+                            </div>
+                            <div class="highlight-value">MC</div>
+                            <div class="highlight-title">Public Speaking</div>
+                            <div class="highlight-desc">Event Host, Team Collaboration & Communication</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills" class="technical-skills">
+            <div class="skills-container">
+                <div class="skills-header">
+                    <div class="section-badge">MY EXPERTISE</div>
+                    <h2 class="section-heading">Technical Skills</h2>
+                    <p class="section-subtitle">Technologies, tools, and concepts I use to build data-driven solutions.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Programming Languages</h3>
+                        <p class="skill-description">Strong programming foundation.</p>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="90"></div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Java</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="80"></div>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">C++</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="80"></div>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">C</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="80"></div>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="75"></div>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Data Analytics</h3>
+                        <p class="skill-description">Data analysis and reporting.</p>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <span class="skill-name">SQL</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="90"></div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Excel</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="95"></div>
+                                    <span class="skill-percent">95%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Statistics</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="85"></div>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Data Cleaning</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="90"></div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Data Visualization</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="90"></div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="18" y1="20" x2="18" y2="10"></line>
+                                <line x1="12" y1="20" x2="12" y2="4"></line>
+                                <line x1="6" y1="20" x2="6" y2="14"></line>
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Visualization</h3>
+                        <p class="skill-description">Business Intelligence tools.</p>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Power BI</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="90"></div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Tableau</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="85"></div>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Dashboard Design</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="90"></div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Reporting</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="90"></div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5"></path>
+                                <path d="M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Python Libraries</h3>
+                        <p class="skill-description">Libraries used in analytics.</p>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <span class="skill-name">NumPy</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="85"></div>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Pandas</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="90"></div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Matplotlib</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="80"></div>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Machine Learning Foundations</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="75"></div>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="3" y1="9" x2="21" y2="9"></line>
+                                <line x1="9" y1="21" x2="9" y2="9"></line>
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Web Development</h3>
+                        <p class="skill-description">Frontend development.</p>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <span class="skill-name">HTML</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="95"></div>
+                                    <span class="skill-percent">95%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">CSS</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="90"></div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="80"></div>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Responsive Design</span>
+                                <div class="skill-progress">
+                                    <div class="skill-bar" data-width="90"></div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Development Capabilities</h3>
+                        <p class="skill-description">Practical technical abilities.</p>
+                        <div class="skill-list skill-checklist">
+                            <div class="skill-item-check">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Problem Solving</span>
+                            </div>
+                            <div class="skill-item-check">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Data Analysis</span>
+                            </div>
+                            <div class="skill-item-check">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Dashboard Creation</span>
+                            </div>
+                            <div class="skill-item-check">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Frontend Development</span>
+                            </div>
+                            <div class="skill-item-check">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Team Collaboration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects" class="featured-projects">
+            <div class="projects-container">
+                <div class="projects-header-row">
+                    <div class="projects-header">
+                        <h2 class="section-heading">📊 Featured Data Analytics Projects</h2>
+                    </div>
+                    <a href="/projects" class="view-all-link">
+                        View All Projects
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Sales Dashboard">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Sales Dashboard</h3>
+                            <div class="project-tech">Power BI, Excel</div>
+                            <p class="project-description">Built an interactive dashboard to analyze sales performance and customer insights.</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link-icon" title="GitHub">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="project-link-icon" title="Live Demo">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=400&fit=crop" alt="HR Analytics Dashboard">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">HR Analytics Dashboard</h3>
+                            <div class="project-tech">Power BI, Excel</div>
+                            <p class="project-description">Analyzed employee data to identify trends in attrition, performance and department insights.</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link-icon" title="GitHub">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="project-link-icon" title="Live Demo">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="E-commerce Sales Analysis">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-commerce Sales Analysis</h3>
+                            <div class="project-tech">SQL, Power BI</div>
+                            <p class="project-description">Performed SQL analysis and created visualizations to derive key business insights.</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link-icon" title="GitHub">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="project-link-icon" title="Live Demo">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1481487484168-9b995ecc4ca7?w=600&h=400&fit=crop" alt="Netflix Data Analysis">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Netflix Data Analysis</h3>
+                            <div class="project-tech">Python, Pandas, Seaborn</div>
+                            <p class="project-description">Exploratory data analysis on Netflix dataset to find content trends and patterns.</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link-icon" title="GitHub">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="project-link-icon" title="Live Demo">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="hackathons" class="hackathons-innovation">
+            <div class="hackathons-container">
+                <div class="hackathons-header-row">
+                    <div class="hackathons-header">
+                        <h2 class="section-heading">🚀 Innovation & Hackathon Projects</h2>
+                    </div>
+                    <a href="/hackathons" class="view-all-link">
+                        View All
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+                <div class="hackathons-grid">
+                    <div class="hackathon-card">
+                        <div class="hackathon-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 10v6M2 10v6"></path>
+                                <path d="M20 20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12z"></path>
+                                <path d="M12 12h.01"></path>
+                            </svg>
+                        </div>
+                        <h3 class="hackathon-title">Smart Classroom Attendance System</h3>
+                        <p class="hackathon-description">Full-stack web application to automate classroom attendance and OD management with secure authentication, geofencing, and role-based access control.</p>
+                        <div class="hackathon-tech">Web Development</div>
+                    </div>
+                    <div class="hackathon-card">
+                        <div class="hackathon-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="hackathon-title">Safe Streets – Guardian Ecosystem</h3>
+                        <p class="hackathon-description">IoT and AI-based personal safety solution with wearable SOS devices, voice-activated panic detection, and real-time location alerts.</p>
+                        <div class="hackathon-tech">IoT, AI</div>
+                    </div>
+                    <div class="hackathon-card">
+                        <div class="hackathon-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5"></path>
+                                <path d="M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <h3 class="hackathon-title">NeuroBizTwin</h3>
+                        <p class="hackathon-description">Simulation-based decision support system to model startup financial and market behavior using predictive analysis models.</p>
+                        <div class="hackathon-tech">Machine Learning</div>
+                    </div>
+                    <div class="hackathon-card">
+                        <div class="hackathon-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="hackathon-title">EduPrena – SIH 2025 (Shortlisted)</h3>
+                        <p class="hackathon-description">Offline-first educational platform delivering multilingual STEM content with Progressive Web App features to support rural communities.</p>
+                        <div class="hackathon-tech">PWA, React</div>
+                    </div>
+                    <div class="hackathon-card">
+                        <div class="hackathon-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"></path>
+                                <path d="M12 18V6"></path>
+                            </svg>
+                        </div>
+                        <h3 class="hackathon-title">SparseMoney</h3>
+                        <p class="hackathon-description">Smart micro-investment platform that rounds up transactions and invests spare change into customizable portfolios with analytics dashboards.</p>
+                        <div class="hackathon-tech">Full Stack</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="experience-container">
+                <div class="section-header">
+                    <h2 class="section-heading">💼 Experience</h2>
+                </div>
+                <div class="experience-cards">
+                    <div class="experience-card">
+                        <div class="experience-card-left">
+                            <div class="experience-timeline">
+                                <div class="timeline-dot"></div>
+                            </div>
+                            <div class="experience-content">
+                                <div class="experience-duration">January 2025 – February 2025</div>
+                                <div class="experience-role">Web Development Intern</div>
+                                <div class="experience-company">ApexPlanet Software Pvt. Ltd.</div>
+                                <div class="experience-description">Completed a one-month internship focused on frontend web development using HTML, CSS and JavaScript. Developed responsive webpages, improved UI components and gained practical experience in building modern websites while collaborating on real-world tasks.</div>
+                            </div>
+                        </div>
+                        <div class="experience-card-right">
+                            <div class="certificate-image-wrapper">
+                                <img src="images/ApexPlanet.jpeg" alt="APEX Planet Certificate" class="certificate-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-card">
+                        <div class="experience-card-left">
+                            <div class="experience-timeline">
+                                <div class="timeline-dot"></div>
+                            </div>
+                            <div class="experience-content">
+                                <div class="experience-duration">February 2025 – March 2025</div>
+                                <div class="experience-role">Web Development Intern</div>
+                                <div class="experience-company">1M1B Green Internship Program</div>
+                                <div class="experience-description">Participated in the Green Internship Program, contributing to sustainability-focused digital initiatives. Assisted in frontend development, responsive interface design and collaborative project implementation while learning industry development practices.</div>
+                            </div>
+                        </div>
+                        <div class="experience-card-right">
+                            <div class="certificate-image-wrapper">
+                                <img src="images/1M1B.jpeg" alt="1M1B Certificate" class="certificate-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leadership & Activities Section -->
+        <section id="leadership" class="leadership-section">
+            <div class="leadership-container">
+                <div class="section-header">
+                    <h2 class="section-heading">👥 Leadership & Activities</h2>
+                </div>
+                <div class="leadership-grid">
+                    <div class="leadership-card">
+                        <div class="leadership-image-wrapper">
+                            <img src="images/Secretary.jpeg" alt="Secretary – IET ENcampS" class="leadership-image">
+                        </div>
+                        <div class="leadership-card-content">
+                            <div class="leadership-card-title">Secretary – IET ONCAMPUS Student Chapter</div>
+                            <div class="leadership-card-subtitle">Leading, Organizing, Impacting</div>
+                            <div class="leadership-bullets">
+                                <div class="check-list-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9 12l2 2 4-4"></path>
+                                    </svg>
+                                    <span>Secretary – IET(Institute of Engineering and Technology) ONCAMPUS Student Chapter</span>
+                                </div>
+                                <div class="check-list-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9 12l2 2 4-4"></path>
+                                    </svg>
+                                    <span>Organized Technical & Non-Technical Events</span>
+                                </div>
+                                <div class="check-list-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9 12l2 2 4-4"></path>
+                                    </svg>
+                                    <span>Coordinated Workshops, Seminars & Student Engagement Programs</span>
+                                </div>
+                                <div class="check-list-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9 12l2 2 4-4"></path>
+                                    </svg>
+                                    <span>Leadership, Team Collaboration & Event Management</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leadership-card">
+                        <div class="leadership-image-wrapper">
+                            <img src="images/MC.jpeg" alt="Master of Ceremonies" class="leadership-image">
+                        </div>
+                        <div class="leadership-card-content">
+                            <div class="leadership-card-title">Master of Ceremonies</div>
+                            <div class="leadership-card-subtitle">Hosting, Engaging, Inspiring</div>
+                            <div class="leadership-bullets">
+                                <div class="check-list-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9 12l2 2 4-4"></path>
+                                    </svg>
+                                    <span>Master of Ceremonies (MC) for Technical Events</span>
+                                </div>
+                                <div class="check-list-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9 12l2 2 4-4"></path>
+                                    </svg>
+                                    <span>Public Speaking & Stage Hosting</span>
+                                </div>
+                                <div class="check-list-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9 12l2 2 4-4"></path>
+                                    </svg>
+                                    <span>Hosted College Technical & Cultural Events</span>
+                                </div>
+                                <div class="check-list-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="M9 12l2 2 4-4"></path>
+                                    </svg>
+                                    <span>Strong Communication & Audience Engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements-section">
+            <div class="achievements-container">
+                <div class="section-header">
+                    <h2 class="section-heading">🏆 Achievements</h2>
+                </div>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-image-wrapper">
+                            <img src="images/Maths.jpeg" alt="Engineering Maths Award" class="achievement-image">
+                        </div>
+                        <div class="achievement-content">
+                            <div class="achievement-title">🏆 Second Prize</div>
+                            <div class="achievement-competition">Engineering Mathematics Festival (2025)</div>
+                            <div class="achievement-description">Secured Second Prize in the Engineering Mathematics Festival for demonstrating strong analytical thinking, mathematical problem-solving and effective teamwork during competitive technical events.</div>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-image-wrapper">
+                            <img src="images/SIH.jpeg" alt="SIH Shortlisted" class="achievement-image">
+                        </div>
+                        <div class="achievement-content">
+                            <div class="achievement-title">🎯 Shortlisted</div>
+                            <div class="achievement-competition">Internal Smart India Hackathon 2025</div>
+                            <div class="achievement-description">Shortlisted at the Internal Smart India Hackathon 2025 for presenting <strong>EduPrena</strong>, an AI-powered multilingual STEM learning platform focused on improving accessible education through innovative technology.</div>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-image-wrapper">
+                            <img src="images/SaiRam.jpeg" alt="Hactrix26 Award" class="achievement-image">
+                        </div>
+                        <div class="achievement-content">
+                            <div class="achievement-title">🥉 Third Place Winner</div>
+                            <div class="achievement-competition">Hacktrix'26 – Sai Ram Institute of Technology</div>
+                            <div class="achievement-description">Secured Third Place in Hactrix'26 for <strong>SparseMoney</strong>, a smart micro-investment platform that automatically rounds up daily transactions and invests spare change into customized portfolios.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+                <div class="contact-grid">
+                    <div class="contact-left">
+                        <div class="contact-heading">Interested in working together?</div>
+                        <div class="contact-description">I'm always open to discussing new opportunities, internships, freelance projects, hackathons, collaborations, or data analytics roles. Feel free to reach out or download my resume.</div>
+                        <div class="contact-buttons">
+                            <a href="#" class="contact-button primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                                Download Resume
+                            </a>
+                            <a href="#" class="contact-button secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                View Resume
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <div class="contact-heading">Let's Connect</div>
+                        <div class="contact-subtext">Feel free to reach out through any of these platforms.</div>
+                        <div class="contact-cards">
+                            <a href="mailto:lakshmi@example.com" class="contact-card">
+                                <div class="contact-card-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="contact-card-content">
+                                    <div class="contact-card-label">Email</div>
+                                    <div class="contact-card-value">lakshmi@example.com</div>
+                                </div>
+                            </a>
+                            <a href="tel:+919876543210" class="contact-card">
+                                <div class="contact-card-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                    </svg>
+                                </div>
+                                <div class="contact-card-content">
+                                    <div class="contact-card-label">Phone</div>
+                                    <div class="contact-card-value">+91 98765 43210</div>
+                                </div>
+                            </a>
+                            <a href="https://linkedin.com/in/lakshmi" target="_blank" class="contact-card">
+                                <div class="contact-card-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </div>
+                                <div class="contact-card-content">
+                                    <div class="contact-card-label">LinkedIn</div>
+                                    <div class="contact-card-value">linkedin.com/in/lakshmi</div>
+                                </div>
+                            </a>
+                            <a href="https://github.com/lakshmi" target="_blank" class="contact-card">
+                                <div class="contact-card-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </div>
+                                <div class="contact-card-content">
+                                    <div class="contact-card-label">GitHub</div>
+                                    <div class="contact-card-value">github.com/lakshmi</div>
+                                </div>
+                            </a>
+                            <div class="contact-card">
+                                <div class="contact-card-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="contact-card-content">
+                                    <div class="contact-card-label">Location</div>
+                                    <div class="contact-card-value">Chennai, India</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <a href="https://linkedin.com/in/lakshmi" target="_blank" class="social-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/lakshmi" target="_blank" class="social-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com/lakshmi" target="_blank" class="social-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                </svg>
+                            </a>
+                            <a href="https://instagram.com/lakshmi" target="_blank" class="social-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox -->
+        <div id="lightbox" class="lightbox">
+            <span class="lightbox-close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

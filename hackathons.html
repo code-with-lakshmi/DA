@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathons | Lakshmi Meganathan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <div class="main-wrapper">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">LM</a>
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="index.html#about" class="nav-link">About</a>
+                    <a href="index.html#skills" class="nav-link">Skills</a>
+                    <a href="projects.html" class="nav-link">Projects</a>
+                    <a href="hackathons.html" class="nav-link active">Hackathons</a>
+                </div>
+                <div class="nav-actions">
+                    <button id="themeToggle" class="theme-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                    </button>
+                    <div id="hamburger" class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hackathons Page Header -->
+        <section class="page-header">
+            <div class="page-header-content">
+                <h1 class="page-title">🚀 Innovation & Hackathon Projects</h1>
+                <p class="page-subtitle">Explore my hackathon and innovation projects with detailed problem statements, solutions, and outcomes.</p>
+            </div>
+        </section>
+
+        <!-- Search and Filters -->
+        <section class="hackathons-filters">
+            <div class="filters-container">
+                <div class="search-bar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" placeholder="Search projects..." id="searchInput">
+                </div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ai">AI</button>
+                    <button class="filter-btn" data-filter="iot">IoT</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="ml">ML</button>
+                    <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                </div>
+                <div class="status-filters">
+                    <button class="status-btn active" data-status="all">All Status</button>
+                    <button class="status-btn" data-status="winner">🏆 Winner</button>
+                    <button class="status-btn" data-status="finalist">🥈 Finalist</button>
+                    <button class="status-btn" data-status="shortlisted">🥉 Shortlisted</button>
+                    <button class="status-btn" data-status="completed">✓ Completed</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hackathons Grid -->
+        <section class="all-hackathons">
+            <div class="hackathons-grid-full">
+                <!-- Hackathon 1: Smart Classroom Attendance System -->
+                <div class="hackathon-detail-card" data-category="web" data-status="completed">
+                    <div class="hackathon-detail-banner">
+                        <div class="hackathon-detail-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 10v6M2 10v6"></path>
+                                <path d="M20 20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12z"></path>
+                                <path d="M12 12h.01"></path>
+                            </svg>
+                        </div>
+                        <div class="hackathon-status-badge completed">Completed</div>
+                    </div>
+                    <div class="hackathon-detail-content">
+                        <h3 class="hackathon-detail-title">Smart Classroom Attendance System</h3>
+                        <div class="hackathon-competition">College Project</div>
+                        
+                        <div class="hackathon-detail-sections">
+                            <div class="detail-section">
+                                <h4>About Project</h4>
+                                <p>Full-stack web application to automate classroom attendance and OD management with secure authentication, geofencing, and role-based access control.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Problem Statement</h4>
+                                <p>Manual attendance tracking was time-consuming and prone to errors. Need for a secure, automated system with real-time monitoring.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Solution</h4>
+                                <p>Developed a web-based attendance system with facial recognition, QR code authentication, geofencing for location verification, and role-based access for faculty and students.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Technology Used</h4>
+                                <div class="tools-list">
+                                    <span class="tool-tag">HTML</span>
+                                    <span class="tool-tag">CSS</span>
+                                    <span class="tool-tag">JavaScript</span>
+                                    <span class="tool-tag">Python</span>
+                                    <span class="tool-tag">SQL</span>
+                                </div>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Architecture</h4>
+                                <p>Three-tier architecture with frontend (React), backend (Python Flask), and database (MySQL). RESTful API for communication between layers.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Features</h4>
+                                <ul>
+                                    <li>Facial recognition attendance</li>
+                                    <li>QR code authentication</li>
+                                    <li>Geofencing for location verification</li>
+                                    <li>Real-time dashboard for faculty</li>
+                                    <li>OD request management</li>
+                                    <li>Automated attendance reports</li>
+                                </ul>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Impact</h4>
+                                <p>Reduced attendance tracking time by 80%, improved accuracy to 99%, and enabled real-time monitoring for faculty.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Future Scope</h4>
+                                <p>Integration with biometric systems, mobile app development, and AI-powered attendance prediction.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="hackathon-detail-actions">
+                            <a href="#" class="btn btn-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                                GitHub
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hackathon 2: Safe Streets – Guardian Ecosystem -->
+                <div class="hackathon-detail-card" data-category="ai iot" data-status="completed">
+                    <div class="hackathon-detail-banner">
+                        <div class="hackathon-detail-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <div class="hackathon-status-badge completed">Completed</div>
+                    </div>
+                    <div class="hackathon-detail-content">
+                        <h3 class="hackathon-detail-title">Safe Streets – Guardian Ecosystem</h3>
+                        <div class="hackathon-competition">Innovation Project</div>
+                        
+                        <div class="hackathon-detail-sections">
+                            <div class="detail-section">
+                                <h4>About Project</h4>
+                                <p>IoT and AI-based personal safety solution with wearable SOS devices, voice-activated panic detection, and real-time location alerts.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Problem Statement</h4>
+                                <p>Personal safety concerns, especially for women and senior citizens, with delayed emergency response times.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Solution</h4>
+                                <p>Developed an integrated ecosystem with wearable SOS devices, voice-activated panic detection, GPS tracking, and real-time alerts to emergency contacts and authorities.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Technology Used</h4>
+                                <div class="tools-list">
+                                    <span class="tool-tag">IoT</span>
+                                    <span class="tool-tag">Python</span>
+                                    <span class="tool-tag">AI</span>
+                                    <span class="tool-tag">GPS</span>
+                                    <span class="tool-tag">Arduino</span>
+                                </div>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Architecture</h4>
+                                <p>IoT devices connected to cloud platform via MQTT, AI model for voice detection, mobile app for alerts, and emergency response integration.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Features</h4>
+                                <ul>
+                                    <li>Wearable SOS device</li>
+                                    <li>Voice-activated panic detection</li>
+                                    <li>Real-time GPS tracking</li>
+                                    <li>Emergency contact alerts</li>
+                                    <li>Authority notification system</li>
+                                    <li>Predictive risk monitoring</li>
+                                </ul>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Impact</h4>
+                                <p>Potential to reduce emergency response time by 60% and provide peace of mind for vulnerable populations.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Future Scope</h4>
+                                <p>Integration with city emergency services, AI-powered route safety analysis, and community safety network.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="hackathon-detail-actions">
+                            <a href="#" class="btn btn-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                                GitHub
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hackathon 3: NeuroBizTwin -->
+                <div class="hackathon-detail-card" data-category="ml" data-status="completed">
+                    <div class="hackathon-detail-banner">
+                        <div class="hackathon-detail-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5"></path>
+                                <path d="M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <div class="hackathon-status-badge completed">Completed</div>
+                    </div>
+                    <div class="hackathon-detail-content">
+                        <h3 class="hackathon-detail-title">NeuroBizTwin</h3>
+                        <div class="hackathon-competition">Entrepreneurship Innovation</div>
+                        
+                        <div class="hackathon-detail-sections">
+                            <div class="detail-section">
+                                <h4>About Project</h4>
+                                <p>Simulation-based decision support system to model startup financial and market behavior using predictive analysis models.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Problem Statement</h4>
+                                <p>High failure rate of startups due to poor financial planning and lack of market understanding before launch.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Solution</h4>
+                                <p>Created a digital twin simulation platform that models startup behavior, financial projections, and market scenarios for risk-free experimentation.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Technology Used</h4>
+                                <div class="tools-list">
+                                    <span class="tool-tag">Python</span>
+                                    <span class="tool-tag">Machine Learning</span>
+                                    <span class="tool-tag">Data Visualization</span>
+                                    <span class="tool-tag">Analytics</span>
+                                </div>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Architecture</h4>
+                                <p>ML models for financial forecasting, simulation engine for scenario modeling, dashboard for visualization and analysis.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Features</h4>
+                                <ul>
+                                    <li>Financial behavior modeling</li>
+                                    <li>Market scenario simulation</li>
+                                    <li>Risk assessment dashboard</li>
+                                    <li>Predictive analytics</li>
+                                    <li>What-if analysis</li>
+                                    <li>Decision support recommendations</li>
+                                </ul>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Impact</h4>
+                                <p>Helps entrepreneurs make informed decisions, reducing startup failure risk through data-driven planning.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Future Scope</h4>
+                                <p>Integration with real market data, industry-specific templates, and collaborative planning features.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="hackathon-detail-actions">
+                            <a href="#" class="btn btn-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                                GitHub
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hackathon 4: EduPrena – SIH 2025 -->
+                <div class="hackathon-detail-card" data-category="web" data-status="shortlisted">
+                    <div class="hackathon-detail-banner">
+                        <div class="hackathon-detail-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            </svg>
+                        </div>
+                        <div class="hackathon-status-badge shortlisted">🥉 Shortlisted</div>
+                    </div>
+                    <div class="hackathon-detail-content">
+                        <h3 class="hackathon-detail-title">EduPrena – SIH 2025</h3>
+                        <div class="hackathon-competition">Smart India Hackathon 2025</div>
+                        
+                        <div class="hackathon-detail-sections">
+                            <div class="detail-section">
+                                <h4>About Project</h4>
+                                <p>Offline-first educational platform delivering multilingual STEM content with Progressive Web App features to support rural communities.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Problem Statement</h4>
+                                <p>Lack of access to quality STEM education in rural areas due to poor internet connectivity and language barriers.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Solution</h4>
+                                <p>Developed an offline-first PWA with multilingual support, adaptive learning, and STEM content designed for low-bandwidth environments.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Technology Used</h4>
+                                <div class="tools-list">
+                                    <span class="tool-tag">PWA</span>
+                                    <span class="tool-tag">React</span>
+                                    <span class="tool-tag">JavaScript</span>
+                                    <span class="tool-tag">IndexedDB</span>
+                                </div>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Architecture</h4>
+                                <p>Service workers for offline functionality, IndexedDB for local storage, React for UI, and content delivery network for updates.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Features</h4>
+                                <ul>
+                                    <li>Offline-first architecture</li>
+                                    <li>Multilingual content support</li>
+                                    <li>Adaptive learning paths</li>
+                                    <li>STEM curriculum modules</li>
+                                    <li>Progress tracking</li>
+                                    <li>Low-bandwidth optimization</li>
+                                </ul>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Impact</h4>
+                                <p>Enables quality education access for rural students regardless of internet connectivity, bridging the digital divide.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Future Scope</h4>
+                                <p>Expansion to more languages, AI-powered personalization, and integration with government education systems.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="hackathon-detail-actions">
+                            <a href="#" class="btn btn-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                                GitHub
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Presentation
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hackathon 5: SparseMoney -->
+                <div class="hackathon-detail-card" data-category="fullstack" data-status="completed">
+                    <div class="hackathon-detail-banner">
+                        <div class="hackathon-detail-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"></path>
+                                <path d="M12 18V6"></path>
+                            </svg>
+                        </div>
+                        <div class="hackathon-status-badge completed">Completed</div>
+                    </div>
+                    <div class="hackathon-detail-content">
+                        <h3 class="hackathon-detail-title">SparseMoney</h3>
+                        <div class="hackathon-competition">Fintech Innovation</div>
+                        
+                        <div class="hackathon-detail-sections">
+                            <div class="detail-section">
+                                <h4>About Project</h4>
+                                <p>Smart micro-investment platform that rounds up transactions and invests spare change into customizable portfolios with analytics dashboards.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Problem Statement</h4>
+                                <p>Barriers to entry for investing, especially for young professionals and students with limited capital.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Solution</h4>
+                                <p>Created a micro-investment platform that automatically rounds up daily transactions and invests the spare change into diversified portfolios.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Technology Used</h4>
+                                <div class="tools-list">
+                                    <span class="tool-tag">Python</span>
+                                    <span class="tool-tag">SQL</span>
+                                    <span class="tool-tag">Analytics</span>
+                                    <span class="tool-tag">Dashboard</span>
+                                    <span class="tool-tag">Finance</span>
+                                </div>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Architecture</h4>
+                                <p>Full-stack application with transaction integration, portfolio management engine, analytics dashboard, and investment API integration.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Features</h4>
+                                <ul>
+                                    <li>Automatic round-up investments</li>
+                                    <li>Customizable portfolios</li>
+                                    <li>ETF, Gold, Index Fund options</li>
+                                    <li>Analytics dashboard</li>
+                                    <li>Portfolio tracking</li>
+                                    <li>Goal-based investing</li>
+                                </ul>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Impact</h4>
+                                <p>Democratizes investing by making it accessible with small amounts, encouraging financial literacy and savings habits.</p>
+                            </div>
+                            <div class="detail-section">
+                                <h4>Future Scope</h4>
+                                <p>Integration with more investment options, AI-powered portfolio recommendations, and social investing features.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="hackathon-detail-actions">
+                            <a href="#" class="btn btn-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                                GitHub
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <button class="pagination-btn active">1</button>
+                <button class="pagination-btn">2</button>
+                <button class="pagination-btn next">→</button>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
